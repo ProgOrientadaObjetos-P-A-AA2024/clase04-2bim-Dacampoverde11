@@ -43,6 +43,12 @@ public class Ejecutor {
         listaArriendos.add(arriendoComida);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
+        listaArriendos.add(arriendoComida2);
+        /*
+        importante estudiar esto apra el examen
+        en el array list no se sabe con certeza que tipo de objeto se llama en cada posicion
+        lo que si sabes es que es un objeto de una subclase de arriendo
+        */
         
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 

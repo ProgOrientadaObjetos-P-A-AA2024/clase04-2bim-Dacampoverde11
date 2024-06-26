@@ -39,6 +39,7 @@ public class ArriendoLocalComida extends Arriendo {
         iva = x;
     }
     
+    
     @Override
     public void establecerArriendoMensual(){
         double subtotal = obtenerValorAgua() + obtenerValorLuz() + 
